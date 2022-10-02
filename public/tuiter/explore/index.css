@@ -1,43 +1,8 @@
-.wd-bg-color-black{
-    background-color: black;
-    height: 100%;
-}
-.wd-grid-row{
-    clear: both;
-}
-.wd-grid-col-left{
-    width: 30%;
-    float: left;
-    height: 1000px;
-    overflow: hidden;
-    border-right: solid rgb(47,51,54);
-}
-.wd-grid-col-center{
-    width: 39.6%;
-    float: left;
-}
-.wd-grid-col-right{
-    width: 30%;
-    float: right;
-    height: 1000px;
-    overflow: hidden;
-    border-left: solid rgb(47,51,54);
-}
-
-.wd-pos-relative{
-    position: relative;
-}
-.wd-border-bottom-solid{
-    border-bottom: solid rgb(47,51,54);
-    padding-bottom: 0px;
-}
 .wd-content-left-padding{
     padding-left: 16px;
 }
-
 .wd-search-bar-style{
     background-color: darkgray;
-    color: white;
     border-radius: 20px;
     width: 88%;
     padding: 10px;
@@ -49,23 +14,11 @@
     float: right;
     padding-right: 12px;
 }
-
-.wd-nav-links{
-    width: 100%;
-    color: rgb(110, 118, 125);
-    padding: 0px;
-    font-size: 15px;
-    margin-bottom: 0px;
-}
-.wd-nav-links li{
-    list-style-type: none;
-    display: inline-block;
-}
 .wd-nav-links-left-padding{
-    padding-left: 5%;
+    padding-left: 4%;
 }
 .wd-nav-links-right-padding{
-    padding-right: 5%;
+    padding-right: 4%;
 }
 .wd-nav-link-selected{
     color: rgb(29,161,242);
@@ -73,25 +26,21 @@
     padding-bottom: 5px;
 }
 .wd-topic{
-    color: rgb(110,118,125);
     font-size: 13px;
     margin: 0px;
     padding-top: 10px;
 }
 .wd-title{
-    color: white;
     font-size: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .wd-subtitle{
-    color: white;
     font-size: 13px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .wd-tuits{
-    color: rgb(110,118,125);
     font-size: 13px;
     margin-top: 0px;
     margin-bottom: 10px;
