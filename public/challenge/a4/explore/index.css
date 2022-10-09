@@ -1,0 +1,12 @@
+.wd-search-tuiter {
+    bottom: 10px;
+    left: 15px;
+}
+.fa-stack-more {
+    display: inline-block;
+    height: 1em;
+    line-height: 1em;
+    position: relative;
+    vertical-align: middle;
+    width: 1em;
+}
