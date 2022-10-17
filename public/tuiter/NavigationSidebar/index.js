@@ -4,13 +4,13 @@ const NavigationSidebar = () => {
      <a class="list-group-item" href="/">
         <i class="fab fa-twitter"></i>
      </a>
-     <a href="../home.html" class="list-group-item list-group-item-action">
+     <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action">
          <div>
              <span><i class="fas fa-home float-start pt-1"></i></span>
              <span class="d-none d-xl-block ps-4">Home</span>
          </div>
      </a>
-     <a href="../index.html" class="list-group-item list-group-item-action active">
+     <a href="../explore/index.html" class="list-group-item list-group-item-action active">
          <div>
              <span><i class="fas fa-hashtag float-start pt-1"></i></span>
              <span class="d-none d-xl-block ps-4">Explore</span>
