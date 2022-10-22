@@ -1,6 +1,8 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "./index.css";
+import {Link} from "react-router-dom";
+
 const ExploreComponent = () => {
     return(
         <>
@@ -16,19 +18,19 @@ const ExploreComponent = () => {
             </div>
             <ul className="nav nav-pills mb-2">
                 <li className="nav-item">
-                    <a className="nav-link active">For You</a>
+                    <Link to="/tuiter/explore" className="nav-link active">For You</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Trending</a>
+                    <a href="trending.html" className="nav-link">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">News</a>
+                    <a href="news.html" className="nav-link">News</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Sports</a>
+                    <a href="sports.html" className="nav-link">Sports</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Entertainment</a>
+                    <a href="entertainment.html" className="nav-link">Entertainment</a>
                 </li>
             </ul>
             <div className="position-relative mb-2">
