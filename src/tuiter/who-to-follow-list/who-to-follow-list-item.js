@@ -9,7 +9,7 @@ const WhoToFollowListItem = (
             <div className="row">
                 <div className="col-2">
                     <img className="rounded-circle" height={48}
-                         src={`/tuiter/images/${who.avatarIcon}`} alt="Person Picture"/>
+                         src={`/tuiter/images/${who.avatarIcon}`} alt="Person to follow"/>
                 </div>
                 <div className="col-8">
                     <div className="fw-bold">{who.userName}</div>

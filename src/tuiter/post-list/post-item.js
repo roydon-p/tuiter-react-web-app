@@ -20,7 +20,7 @@ const PostItem = (
             <div className="row">
                 <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
                     <img className="rounded-circle" src={`/tuiter/images/${post.profilepic}`}
-                         alt="Profile Picture of account holder" height="50px" width="50px"/>
+                         alt="Profile of account holder" height="50px" width="50px"/>
                 </div>
                 <div className="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11">
                     <div className="fw-bolder ps-2">
@@ -35,7 +35,7 @@ const PostItem = (
                     </div>
                     <div className="border border-dark rounded-2">
                         <img className="rounded-top border-bottom border-dark"
-                             src={`/tuiter/images/${post.image}`} alt="Post Image" width="100%"/>
+                             src={`/tuiter/images/${post.image}`} alt="Post related" width="100%"/>
                             <div className="fw-light ps-2">
                                 {post.imgtitle}
                             </div>
