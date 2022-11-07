@@ -17,12 +17,12 @@ const ProfileComponent = () => {
             </div>
             <div className="row">
                 <div className="col-12">
-                    <img src="../../tuiter/images/banner.png" width="100%"/>
+                    <img src="../../tuiter/images/banner.png" width="100%" alt="profile banner"/>
                 </div>
             </div>
             <div className="row">
                 <div className="col-3 ps-4 pb-3">
-                    <img src="../../tuiter/images/elonmusk.jpeg"
+                    <img src="../../tuiter/images/elonmusk.jpeg" alt="profile pic"
                          className="rounded-circle float-start" width={100}/>
                 </div>
                 <div className="col-9 pt-3 pe-4">
