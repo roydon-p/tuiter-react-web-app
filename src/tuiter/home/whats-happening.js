@@ -14,7 +14,7 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-auto">
-                <img src="../../tuiter/images/nasalogo.png" width={60}/>
+                <img src="../../tuiter/images/nasalogo.png" width={60} alt="profile of account holder"/>
             </div>
             <div className="col-10">
                 <textarea value={whatsHappening} placeholder="What's happening?"
