@@ -1,7 +1,8 @@
 import React from "react";
 import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../reducers/hometuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
+// import {deleteTuit} from "../reducers/hometuits-reducer";
 
 const TuitItem = (
     {
@@ -17,13 +18,16 @@ const TuitItem = (
             "liked": true,
             "replies": 456,
             "retuits": 123,
-            "likes": 1034
+            "likes": 1034,
+            "dislikes": 10,
+            "disliked": true
         }
     }
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
+        // dispatch(deleteTuit(id));
     }
     return(
         <li className="list-group-item">
@@ -45,11 +49,7 @@ const TuitItem = (
                     <div className="fw-light ps-2">
                         {tuit.text}
                     </div>
-                    <TuitStats
-                        liked={tuit.liked}
-                        likes={tuit.likes}
-                        replies={tuit.replies}
-                        retuits={tuit.retuits}/>
+                    <TuitStats tuitdata={tuit}/>
                 </div>
             </div>
         </li>
