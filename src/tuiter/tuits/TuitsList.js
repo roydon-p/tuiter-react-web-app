@@ -7,7 +7,7 @@ const TuitsList = () => {
     // const tuitsArray = useSelector(state => state.hometuits)
     const {tuits, loading} = useSelector(state => state.hometuitData)
     const dispatch = useDispatch();
-    useEffect(() => {dispatch(findTuitsThunk())}, [])
+    useEffect(() => {dispatch(findTuitsThunk())}, [])  //eslint-disable-line react-hooks/exhaustive-deps
 
     return(
         <ul className="list-group">
