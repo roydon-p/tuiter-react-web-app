@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A4 Challenge-Explore</title>
+    <link href="../../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <script href="../../../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <link href="../../styles.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body class="bg-black">
+<div class="container pt-1">
+    <div class="row">
+        <!--        left pane-->
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2 d-none d-sm-block">
+            <div class="list-group">
+                <a href="../home.html" class="list-group-item list-group-item-action bg-black text-white">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="../home.html" class="list-group-item list-group-item-action fw-light bg-black text-white">
+                    <div>
+                        <span><i class="fas fa-home float-start pt-1"></i></span>
+                        <span class="d-none d-xl-block ps-4">Home</span>
+                    </div>
+                </a>
+                <a href="index.html" class="list-group-item list-group-item-action fw-bolder bg-black text-white">
+                    <div>
+                        <span><i class="fas fa-hashtag float-start pt-1"></i></span>
+                        <span class="d-none d-xl-block ps-4">Explore</span>
+                    </div>
+                </a>
+                <a href="../notifications.html" class="list-group-item list-group-item-action fw-light bg-black text-white">
+                    <div>
+                        <span><i class="far fa-bell float-start pt-1"></i></span>
+                        <span class="d-none d-xl-block ps-4">Notifications</span>
+                    </div>
+                </a>
+                <a href="../messages.html" class="list-group-item list-group-item-action fw-light bg-black text-white">
+                    <div>
+                        <span><i class="far fa-envelope float-start pt-1"></i></span>
+                        <span class="d-none d-xl-block ps-4">Messages</span>
+                    </div>
+                </a>
+                <a href="../bookmarks/index.html" class="list-group-item list-group-item-action fw-light bg-black text-white">
+                    <div>
+                        <span><i class="far fa-bookmark float-start pt-1"></i></span>
+                        <span class="d-none d-xl-block ps-4">Bookmarks</span>
+                    </div>
+                </a>
+                <a href="../lists.html" class="list-group-item list-group-item-action bg-black fw-light text-white">
+                    <div>
+                        <span><i class="far fa-list-alt float-start pt-1"></i></span>
+                        <span class="d-none d-xl-block ps-4">Lists</span>
+                    </div>
+                </a>
+                <a href="../profile.html" class="list-group-item list-group-item-action fw-light bg-black text-white">
+                    <div>
+                        <span><i class="far fa-user float-start pt-1"></i></span>
+                        <span class="d-none d-xl-block ps-4">Profile</span>
+                    </div>
+                </a>
+                <a href="../more.html" class="list-group-item list-group-item-action fw-light bg-black text-white">
+                    <div>
+                        <span class="fa-stack-more float-start pt-1">
+                            <i class="far fa-circle fa-stack-1x"></i>
+                            <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <span class="d-none d-xl-block ps-4">More</span>
+                    </div>
+                </a>
+            </div>
+            <button class="btn btn-primary w-100 mt-1 rounded-pill">
+                Tuit
+            </button>
+        </div>
+
+        <!--        middle pane-->
+        <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-7 col-xxl-6 d-none d-sm-block border-start border-end ps-0 pe-0 border-dark">
+            <!--            search bar-->
+            <div class="row ps-4 pe-4">
+                <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11">
+                    <div class="position-relative">
+                        <i class="fas fa-search position-absolute wd-search-tuiter" style="color: gray"></i>
+                        <input class="ps-5 form-control rounded-pill bg-dark border-0" placeholder="Search Tuiter"/>
+                    </div>
+                </div>
+                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 ps-0">
+                    <i class="fa fa-cog fa-2x pt-1 float-end" style="color: white"></i>
+                </div>
+            </div>
+            <!--            tabs-->
+            <ul class="nav justify-content-xxl-evenly justify-content-xl-evenly mt-1 mb-0">
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link fw-bold text-muted" href="for-you.html">
+                        For you
+                    </a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link fw-bold text-muted" href="trending.html">
+                        Trending
+                    </a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link fw-bold text-muted" href="covid19.html">
+                        COVID-19
+                    </a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link fw-bold text-muted" href="news.html">
+                        News
+                    </a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                    <a class="nav-link fw-bold text-muted" href="sports.html">
+                        Sports
+                    </a>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                    <a class="nav-link fw-bold text-white border-bottom border-primary border-4" href="entertainment.html">
+                        Entertainment
+                    </a>
+                </li>
+            </ul>
+            <!--            image-->
+            <div class="position-relative">
+                <img src="../../images/myuniverse.png" width="100%" class="border-bottom border-top border-2 border-dark"/>
+                <p class="position-absolute bottom-0 left-3 mb-5 pb-5 ps-3 text-white">Music . Last night</p>
+                <h3 class="position-absolute bottom-0 left-3 m-0 ps-3 pb-3 text-white">
+                    BTS and Coldplay release their new song, My Universe
+                    <i class="fas fa-globe-asia" style="color: orange"></i>
+                </h3>
+            </div>
+            <!--            tuits-->
+            <ul class="list-group">
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                            <div class="text-secondary">
+                                Trending in R&B & soul
+                            </div>
+                            <div class="fw-bolder text-white">
+                                R Kelly
+                            </div>
+                            <div class="fw-light text-secondary">
+                                18.2K Tuits
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                            <i class="fas fa-ellipsis-h float-end" style="color: gray"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                            <div class="text-secondary">
+                                Trending in R&B & soul
+                            </div>
+                            <div class="fw-bolder text-white">
+                                Chloe
+                            </div>
+                            <div class="fw-light text-secondary">
+                                Trending with <span class="text-primary">Halle</span>
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                            <i class="fas fa-ellipsis-h float-end" style="color: gray"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                            <div class="fw-bolder text-white">
+                                The Times
+                                <i class="fas fa-check-circle"></i>
+                                <span class="text-dark fw-lighter"> . September 24, 2021</span>
+                            </div>
+                            <div class="fw-bold text-white">
+                                Stanley Tucci: 'Food or Sex? That's the cruellest question...'
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                            <img class="float-end rounded-3 d-none d-lg-block" src="../../images/tucci.jpeg" height="100px">
+                            <img class="float-end rounded-3 d-none d-md-block d-lg-none" src="../../images/tucci.jpeg" height="80px">
+                            <img class="float-end rounded-3 d-none d-sm-block d-md-none" src="../../images/tucci.jpeg" height="70px">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--        right pane-->
+        <div class="col-lg-3 col-xl-3 col-xxl-4 d-none d-lg-block">
+            <!--            right pane for L size-->
+            <ul class="list-group d-none d-lg-block border-0">
+                <li class="list-group-item bg-dark">
+                    <div class="fw-bolder text-white">
+                        <h4>Who to follow</h4>
+                    </div>
+                </li>
+                <li class="list-group-item bg-dark">
+                    <div class="row">
+                        <div class="col-2 col-xl-2 col-xxl-2 d-none d-xxl-block">
+                            <img class="rounded-circle" src="../../images/babylonbee.png" height="50px">
+                        </div>
+                        <div class="col-2 col-lg-2 col-xl-2 d-none d-lg-block d-xxl-none">
+                            <img class="rounded-circle" src="../../images/babylonbee.png" height="40px">
+                        </div>
+                        <div class="col-7 col-lg-7 col-xl-7">
+                            <div>
+                                <span class="fw-bolder float-start text-white text-nowrap">The Babylon Bee
+                                <i class="fas fa-check-circle ps-1" style="color: white"></i></span>
+                            </div>
+                            <div class="text-secondary">
+                                @TheBabylonBee
+                            </div>
+                        </div>
+                        <div class="col-3 col-lg-3 col-xl-3 d-flex justify-content-center">
+                            <button class="btn btn-light fw-bold rounded-pill d-none d-xxl-block">
+                                Follow
+                            </button>
+                            <button class="btn btn-light fw-bold rounded-pill d-none d-lg-block d-xxl-none btn-sm">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item bg-dark">
+                    <div class="row">
+                        <div class="col-2 col-xl-2 col-xxl-2 d-none d-xxl-block">
+                            <img class="rounded-circle" src="../../images/jack.jpeg" height="50px">
+                        </div>
+                        <div class="col-2 col-lg-2 col-xl-2 d-none d-lg-block d-xxl-none">
+                            <img class="rounded-circle" src="../../images/jack.jpeg" height="40px">
+                        </div>
+                        <div class="col-7 col-lg-7 col-xl-7">
+                            <div>
+                                <span class="fw-bolder float-start text-white text-nowrap">Jack Posobiec
+                                <i class="fas fa-check-circle ps-1" style="color: white"></i></span>
+                            </div>
+                            <div class="text-secondary">
+                                @JackPosobiec
+                            </div>
+                        </div>
+                        <div class="col-3 col-lg-3 col-xl-3 d-flex justify-content-center">
+                            <button class="btn btn-light fw-bold rounded-pill d-none d-xxl-block">
+                                Follow
+                            </button>
+                            <button class="btn btn-light fw-bold rounded-pill d-none d-lg-block d-xxl-none btn-sm">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item bg-dark">
+                    <div class="fw-light text-primary">
+                        Show more
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <ul class="nav justify-content-xxl-evenly">
+                    <li class="nav-item text-muted">
+                        Terms of Service
+                    </li>
+                    <li class="nav-item text-muted">
+                        Privacy Policy
+                    </li>
+                    <li class="nav-item text-muted">
+                        Cookie Policy
+                    </li>
+                </ul>
+                <ul class="nav justify-content-xxl-evenly">
+                    <li class="nav-item text-muted">
+                        Ads info
+                    </li>
+                    <li class="nav-item text-muted">
+                       More...
+                    </li>
+                    <li class="nav-item text-muted">
+                        2021 Tuiter, Inc.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

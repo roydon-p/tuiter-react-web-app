@@ -1,0 +1,75 @@
+.wd-content-left-padding{
+    padding-left: 16px;
+}
+.wd-search-bar-style{
+    background-color: darkgray;
+    border-radius: 20px;
+    width: 88%;
+    padding: 10px;
+}
+#settings:after{
+    content: "\02699";
+    color: blue;
+    font-size: 35px;
+    float: right;
+    padding-right: 12px;
+}
+.wd-nav-links-left-padding{
+    padding-left: 4%;
+}
+.wd-nav-links-right-padding{
+    padding-right: 4%;
+}
+.wd-nav-link-selected{
+    color: rgb(29,161,242);
+    border-bottom: solid rgb(29,161,242);
+    padding-bottom: 5px;
+}
+.wd-topic{
+    font-size: 13px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.wd-title{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.wd-subtitle{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.wd-tuits{
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.wd-vertical-padding{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.wd-post-height{
+    height: 120px;
+}
+.wd-grid-post-data{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 70%;
+    float: left;
+}
+.wd-grid-post-image{
+    margin-top: 10px;
+    float: right;
+    padding-right: 16px;
+}
+.wd-post-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+}
+
+.wd-search-tuiter {
+    bottom: 10px;
+    left: 15px;
+}

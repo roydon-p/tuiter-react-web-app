@@ -1,0 +1,15 @@
+[{
+  "firstName": "Elon",
+  "lastName": "Musk",
+  "handle": "@elonmusk",
+  "profilePicture": "elonmusk.jpeg",
+  "totaltuits": 3244,
+  "bannerPicture": "banner.png",
+  "bio": "Chief Tuit, Twitter Complaint Hotline Operator",
+  "website": "twitter.com",
+  "location": "US",
+  "dateOfBirth": "1 April 1990",
+  "dateJoined": "Jun 2010",
+  "followingCount": 340,
+  "followersCount": 223
+}]
